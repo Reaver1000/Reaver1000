@@ -10,7 +10,7 @@ My background combines systems administration, financial-services analysis, manu
 
 | Project | What it demonstrates |
 | --- | --- |
-| [NodeTrak](https://github.com/Reaver1000/nodetrak) | Offline-first PWA for anonymous factory-floor fault reporting, with offline sync, security controls, accessibility testing, and downtime analytics |
+| NodeTrak | Offline-first PWA for anonymous factory-floor fault reporting, with offline sync, security controls, accessibility testing, and downtime analytics. Source temporarily private while assessment is completed. |
 | [Data Analysis Demo](https://github.com/Reaver1000/data-analysis-demo) | SQL and Python analysis pipeline using complex queries, pandas transformations, and automated reporting |
 | [ETL Data Pipeline](https://github.com/Reaver1000/etl-data-pipeline) | Small composable ETL framework with pluggable stages, SQLite loading, tests, and CI |
 | [SQL Query Builder](https://github.com/Reaver1000/sql-query-builder) | Interactive Streamlit and DuckDB playground covering window functions, CTEs, cohorts, and RFM analysis |
