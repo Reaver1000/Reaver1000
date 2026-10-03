@@ -33,6 +33,8 @@ The source is private while degree assessment completes. **The full repository p
 | [Remote Job Engine](https://github.com/Reaver1000/remote-job-engine) | Polls 30+ job boards, scores roles for fit, and reports what the data says about the market. The honest lessons from this tool reshaped how I approach applications |
 | [Data Analysis Demo](https://github.com/Reaver1000/data-analysis-demo) | Reproducible SQL and Python analysis pipeline with pandas, charts, customer segmentation, and automated reporting |
 | [Futures Backtest Suite](https://github.com/Reaver1000/futures-backtest-suite) | Python research workflow with optimisation, parameter heatmaps, walk-forward validation, and reporting |
+| [BookForge](https://github.com/Reaver1000/bookforge) | Programmatic printable book generator with a graded Sudoku engine, maze generation, journals, and planners. Tested, CI |
+| [Prop Firm Toolkit](https://github.com/Reaver1000/prop-firm-toolkit) | Monte Carlo evaluation simulator, drawdown-guarded NinjaTrader strategy, and compliance cheat sheet. Live tool on GitHub Pages |
 | [Python Automation Toolkit](https://github.com/Reaver1000/python-automation-toolkit) | File automation CLI with 20 tests and CI, stdlib only |
 
 ## Technical focus
