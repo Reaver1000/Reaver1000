@@ -25,6 +25,7 @@ The source is private while degree assessment completes. **The full repository p
 
 | Project | What it demonstrates |
 | --- | --- |
+| [llm-contract](https://github.com/Reaver1000/llm-contract) | Schema-first structured extraction for LLM APIs. Feedback retries, provider abstraction for Claude and OpenAI, and a CI-safe eval harness. Tested, CI |
 | [ETL Data Pipeline](https://github.com/Reaver1000/etl-data-pipeline) | Composable ETL framework with pluggable stages, schema mapping, deduplication, SQLite loading, tests, and CI |
 | [Finance Dashboard](https://github.com/Reaver1000/finance-dashboard) | Full-stack analytics dashboard with TypeScript, React, PostgreSQL, REST APIs, and advanced SQL (CTEs, window functions) |
 | [SQL Query Builder](https://github.com/Reaver1000/sql-query-builder) | Interactive Streamlit and DuckDB playground with 55 tested templates covering joins, windows, CTEs, cohorts, and RFM analysis |
