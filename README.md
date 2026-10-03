@@ -6,30 +6,48 @@ I build useful software for real operational problems.
 
 My background combines systems administration, financial-services analysis, manufacturing operations, and a BSc (Hons) in Computing and IT from The Open University. I am especially interested in data engineering, automation, backend systems, and tools that make difficult information easier to act on.
 
+## NodeTrak, my final-year project
+
+An offline-first Progressive Web App for anonymous factory-floor fault reporting. Workers report a fault without logging in, reports queue locally when the network is down, and everything syncs exactly once when connectivity returns. Managers get downtime analytics from the event stream.
+
+| | | |
+| --- | --- | --- |
+| ![Dashboard](docs/nodetrak/dashboard.png) | ![Report a fault](docs/nodetrak/report-fault.png) | ![Offline queue](docs/nodetrak/offline.png) |
+| ![Back online, synced](docs/nodetrak/mark-back-online.png) | ![Accessibility check](docs/nodetrak/accessibility.png) | |
+
+**Stack.** React and TypeScript front end, Express REST API, SQLite and IndexedDB storage, service-worker caching, Google OAuth 2.0.
+
+**Quality.** The full test pyramid runs in CI on every push. Vitest for units, Supertest for the API, Playwright for end-to-end flows including offline queueing and duplicate-delivery prevention. Accessibility was tested with keyboard-only navigation and a screen reader.
+
+The source is private while degree assessment completes. **The full repository publishes here once results are out, expected late 2026.**
+
 ## Featured work
 
 | Project | What it demonstrates |
 | --- | --- |
-| NodeTrak | Offline-first PWA for anonymous factory-floor fault reporting, with offline sync, security controls, accessibility testing, and downtime analytics. Source temporarily private while assessment is completed. |
-| [Data Analysis Demo](https://github.com/Reaver1000/data-analysis-demo) | SQL and Python analysis pipeline using complex queries, pandas transformations, and automated reporting |
-| [ETL Data Pipeline](https://github.com/Reaver1000/etl-data-pipeline) | Small composable ETL framework with pluggable stages, SQLite loading, tests, and CI |
-| [SQL Query Builder](https://github.com/Reaver1000/sql-query-builder) | Interactive Streamlit and DuckDB playground covering window functions, CTEs, cohorts, and RFM analysis |
-| [Finance Dashboard](https://github.com/Reaver1000/finance-dashboard) | Full-stack analytics dashboard using TypeScript, React, PostgreSQL, and advanced SQL |
-| [Futures Backtest Suite](https://github.com/Reaver1000/futures-backtest-suite) | Reusable Python research workflow with optimisation, heatmaps, walk-forward validation, and reporting |
+| [ETL Data Pipeline](https://github.com/Reaver1000/etl-data-pipeline) | Composable ETL framework with pluggable stages, schema mapping, deduplication, SQLite loading, tests, and CI |
+| [Finance Dashboard](https://github.com/Reaver1000/finance-dashboard) | Full-stack analytics dashboard with TypeScript, React, PostgreSQL, REST APIs, and advanced SQL (CTEs, window functions) |
+| [SQL Query Builder](https://github.com/Reaver1000/sql-query-builder) | Interactive Streamlit and DuckDB playground with 55 tested templates covering joins, windows, CTEs, cohorts, and RFM analysis |
+| [Trip Orchestrator](https://github.com/Reaver1000/trip-orchestrator) | Multi-source travel research that ranks stays on unsponsored reviews (Bayesian-shrunk) and prices flexible date windows |
+| [redditsbrainrot](https://github.com/Reaver1000/redditsbrainrot) | Automated video pipeline. Scraper, pluggable TTS stage (first ElevenLabs API, later Bark behind the same interface), subtitles, BGM, ffmpeg assembly |
+| [Remote Job Engine](https://github.com/Reaver1000/remote-job-engine) | Polls 30+ job boards, scores roles for fit, and reports what the data says about the market. The honest lessons from this tool reshaped how I approach applications |
+| [Data Analysis Demo](https://github.com/Reaver1000/data-analysis-demo) | Reproducible SQL and Python analysis pipeline with pandas, charts, customer segmentation, and automated reporting |
+| [Futures Backtest Suite](https://github.com/Reaver1000/futures-backtest-suite) | Python research workflow with optimisation, parameter heatmaps, walk-forward validation, and reporting |
+| [Python Automation Toolkit](https://github.com/Reaver1000/python-automation-toolkit) | File automation CLI with 20 tests and CI, stdlib only |
 
 ## Technical focus
 
-**Languages:** Python, SQL, TypeScript, JavaScript
+**Languages.** Python, SQL, TypeScript, JavaScript
 
-**Data:** pandas, DuckDB, SQLite, PostgreSQL, ETL, data visualisation, statistical analysis
+**Data.** pandas, DuckDB, SQLite, PostgreSQL, ETL, data visualisation, statistical analysis
 
-**Application development:** React, Node.js, Express, REST APIs, Progressive Web Apps
+**Application development.** React, Node.js, Express, REST APIs, Progressive Web Apps, offline-first design
 
-**Engineering practice:** automated testing, CI, accessibility, OAuth, threat modelling, offline-first design, documentation
+**Testing and operations.** Vitest, Supertest, Playwright, CI, accessibility testing, OAuth 2.0, Linux, Docker, n8n, LLM API integration
 
 ## What I am looking for
 
-Remote opportunities in data analysis, data engineering, backend development, automation, or junior software engineering. I am based in Germany and work comfortably with distributed teams across CET-friendly time zones.
+Remote opportunities in data analysis, data engineering, backend or junior software engineering, test automation, technical support, or AI-assisted product development. I am based in Germany (Erfurt) and work comfortably with distributed teams across CET-friendly time zones.
 
 ## Background
 
