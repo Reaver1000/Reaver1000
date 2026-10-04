@@ -1,10 +1,10 @@
 # David Buchan
 
-### Data, automation, and practical software engineering
+### I build systems end-to-end
 
-I build useful software for real operational problems.
+Data pipelines, automation tools, LLM integrations, and tested web applications. Every project in this portfolio is a complete system — inputs, transformations, feedback loops, failure handling, and a measurable output. Not one is a code snippet.
 
-My background combines systems administration, financial-services analysis, manufacturing operations, and a BSc (Hons) in Computing and IT from The Open University. I am especially interested in data engineering, automation, backend systems, and tools that make difficult information easier to act on.
+My background combines systems administration, financial-services analysis, manufacturing operations, and a BSc (Hons) in Computing and IT from The Open University. I am especially interested in integration engineering, data infrastructure, automation, and building the boring, reliable pieces that everything else depends on.
 
 ## NodeTrak, my final-year project
 
