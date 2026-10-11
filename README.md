@@ -4,7 +4,7 @@ Python · SQL/ETL · LLM APIs (OpenAI, Anthropic, Gemini) · n8n · Playwright �
 
 I build automation and data systems end-to-end. Career-changer with 13+ years in operations (Lloyds Banking Group call-quality analysis, Windows sysadmin, Deutsche Post, Amazon print production) + BSc (Hons) Computing and IT, Open University 2026. Junior/associate level, honest positioning: no professional software engineering title yet — looking for the first one. Five years in regulated banking make fintech a natural lane.
 
-**Available for fully remote roles (Germany or UK) from November 2026.**
+**Open to fully remote roles (Germany or UK).**
 davidbuchan1000@googlemail.com · Site: https://reaver1000.github.io · LinkedIn: https://www.linkedin.com/in/david-a-buchan/
 
 ## Focus
